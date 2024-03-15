@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Média</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="cabecalho">
+        <div class="h1">
+            <h1>Vamos calcular a sua média hoje!</h1>
+        </div>
+        <p>Neste espaço, você pode inserir suas notas da Uniassalvi, para calcular sua média e descobrir quantos pontos são necessários para passar na matéria.</p>
+    </section>
+    <section class="body">
+        <h2>Cálculo da média</h2>
+        <div>
+            <label for="av1">Nota da Av I:</label>
+            <input type="number" id="av1" name="av1">
+        </div>
+        <div>
+            <label for="av2">Nota da Av II:</label>
+            <input type="number" id="av2" name="av2">
+        </div>
+        <div>
+            <label for="avF">Nota da Av Final:</label>
+            <input type="number" id="avF" name="avF">
+        </div>
+        <div>
+            <label for="avO">Nota da Av Objetiva:</label>
+            <input type="number" id="avO" name="avO">
+        </div>
+        <div>
+            <button onclick="calcularMedia()">Calcular Média</button>
+            <button onclick="limpar()">Limpar</button>
+        </div>
+        <div id="resultado" ></div>
+    </section>
+    <footer class="rodape">
+        <p>Desenvolvido por Jeice Santos &copy; 2024</p>
+    </footer>
+</body>
+</html>
