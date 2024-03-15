@@ -9,7 +9,7 @@ Esta é uma simples aplicação web para calcular a média das notas de um aluno
 
 ## Como usar
 
-1. Abra o arquivo `index.html` em seu navegador.
+1. Abra o link [`suamedia`](https://calculo-media-uniasselvi-pos.vercel.app/) em seu navegador.
 2. Insira as notas correspondentes nos campos de entrada:
    - Nota da Avaliação I (Av I)
    - Nota da Avaliação II (Av II)
