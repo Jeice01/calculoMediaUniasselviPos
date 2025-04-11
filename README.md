@@ -28,6 +28,11 @@ A média é calculada utilizando a seguinte fórmula:
 
 Para ser aprovado na disciplina, o aluno precisa obter uma média igual ou superior a 7.
 
+A nota da atividade complementar tambem é somada ao total da média do aluno.
+```
+MEDIA TOTAL + NOTA DA ATIVIDADE COMPLEMENTAR
+```
+
 ## Exemplo
 
 Por exemplo, considerando as seguintes notas:
@@ -35,12 +40,14 @@ Por exemplo, considerando as seguintes notas:
 - Av I: 8
 - Av II: 10
 - Av Final: 9
-- Av Objetiva: -
+- Av Objetiva: 0
+- Nota da Atividade complementar: 0,50
 
 A média será calculada da seguinte forma:
 
 ```
 ((8 * 2) + (10 * 2) + (9 * 2) + (- * 4)) / 10 = Resultado
+Resultado + nota da atividade complementar
 ```
 
 ## Autor
